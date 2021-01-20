@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap");
+@font-face {
+    font-family: "Spotify Regular";
+    src: url("./assets/fonts/GothamBook.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "Spotify Bold";
+    src: url("./assets/fonts/GothamBold.ttf");
+}
+
+body {
+    background-color: #111 !important;
+}
+
+* {
+    font-family: "Spotify Regular";
+    margin: 0;
+    padding: 0;
+}
+
+.text--bold {
+    font-family: "Spotify Bold";
+}
+
+p {
+    margin-bottom: 0 !important;
 }
